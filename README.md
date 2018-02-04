@@ -1,5 +1,7 @@
 ## Bash ubuntu on Windows 10
 
+NOTE: Some of these commands won't give you visual feedback.
+
 1. Install ms vscode
 
 2. Windows search and enable "developer mode"
@@ -14,15 +16,15 @@
 
 7. type ```ls -a``` and you should see .bashrc file
 
-9. type ```echo "cd /mnt/c/Users/yourusername" >> .bashrc``` and this will make it so bash launches, remember to replace yourusername with your created username (your first name)
+9. type ```echo "cd /mnt/c/Users/$USER" >> .bash_profile``` and this will make it so bash launches in your windows home directory
 
 10. type ```cat .bashrc``` to see it print what you did in step 9
 
-11. type ```sudo apt-get update``` and install (this may take some time)
+11. type ```sudo apt-get update -y``` and install (this may take some time)
 
-12. type ```sudo apt-get upgrade``` and install (this may take some time)
+12. type ```sudo apt-get upgrade -y``` and install (this may take some time)
 
-13. type ```sudo apt-get dist-upgrade``` and isntall (this may take some time)
+13. type ```sudo apt-get dist-upgrade -y``` and isntall (this may take some time)
 
 14. At this point it's a good idea to pin bash to your windows taskbar, close bash and open it again
 
