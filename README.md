@@ -1,4 +1,4 @@
-## Bash ubuntu on Windows 10
+## Bash Ubuntu on Windows 10
 
 NOTE: Some of these commands won't give you visual feedback.
 
