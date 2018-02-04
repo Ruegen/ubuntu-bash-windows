@@ -43,3 +43,5 @@ NOTE: Some of these commands won't give you visual feedback.
 ```
 
 20. Quit vs code and reopen - now the integrated terminal will have bash
+
+21. Install git, rbenv and ruby (instructions in other resources) using bash
