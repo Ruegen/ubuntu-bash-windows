@@ -38,8 +38,8 @@ NOTE: Some of these commands won't give you visual feedback.
 
 19. Right hand side in custom settings copy and paste the code below after a comma.
 ```
-  "terminal.external.windowsExec": "C:\\Windows\\System32\\bash.exe",
-  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe",
+"terminal.external.windowsExec": "C:\\Windows\\System32\\bash.exe",
+"terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe",
 ```
 
 20. Quit vs code and reopen - now the integrated terminal will have bash
